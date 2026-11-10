@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.pytest_cache/
+.coverage
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Generated data
+data/*.index
+data/*metadata*.json
+*.npy
+
+# Uploaded files are private by default. Only explicitly approved sample data is included.
+data/uploads/*
+!data/uploads/b3adfc9516ac19c10c3806227ad8b1e188d3a27d8096a98a7670538b8c2b1337.pdf
